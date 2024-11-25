@@ -13,7 +13,11 @@ transformers = "^4.46.3"
 sentencepiece = "^0.2.0"
 protobuf = "^5.28.3"
 tensorboard = "^2.18.0"
+matplotlib = "^3.9.2"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
