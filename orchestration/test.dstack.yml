@@ -1,0 +1,15 @@
+type: task
+name: dstack-integration-test
+
+image: pytorch/pytorch
+
+env:
+  - LOCAL_USER
+  - LOCAL_HOST
+  - LOCAL_PORT
+  - LOCAL_OUT_DIR
+  - MACHINE_PRIVATE_KEY
+  - MACHINE_OUT_DIR
+
+commands:
+  - bash orchestration/entrypoint.sh
