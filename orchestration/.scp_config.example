@@ -1,9 +1,11 @@
-# Example .env file for use with this test.
+# Example .scp_config file for the project.
+# Note: Since this file contains ssh keys, it should be saved with 0600 permissions.
 
 # Output SSH settings
 LOCAL_USER='The user to copy output files to'
 LOCAL_HOST='The host to copy output files to'
 LOCAL_PORT='The port to copy output files to'
+# FIXME: This currently is an absolute path
 LOCAL_OUT_DIR='The directory to store output files to on the output machine'
 
 # Machine SSH key
